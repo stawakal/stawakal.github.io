@@ -102,9 +102,10 @@ a:hover {
 .logo {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.25rem;
-  letter-spacing: 0.05em;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
   color: var(--accent);
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -698,6 +699,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    font-size: 0.95rem;
+  }
+
   .nav-toggle {
     display: flex;
   }
